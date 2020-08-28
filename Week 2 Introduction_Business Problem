@@ -1,0 +1,15 @@
+Introductions
+For the final Capstone Project in the IBM Certificate Course, Coursera has provided a set of traffic accident related data to base this final project on. 
+The data was collected by the Seattle Police Department, recorded by Traffic Records, and provided by Coursera via a download link. 
+The time period for this data is from 2004- present and contains such information as severity in terms of human fatality, traffic delay, property damage, or any other type of accident bad impact. 
+
+With the given set of data, the task was to identify a problem and who would be interested in a solution to this problem. 
+Based on my preliminary review of the data, I decided to explore the amount of accidents that occur in areas labeled as “Junctiontype”. 
+I chose this for a couple of reasons. One being, I was interested in what the data would show. Two, if the data shows this to be a problem in certain areas, then putting a weather, road condition and light condition up in those areas would be a relatively easy fix.
+
+Methodology
+For the data analysis portion of this project, Github was used for a repository and I chose to use IBM Watson Studio to host the notebook. 
+To host the large collision csv file, it was uploaded to IBM Cloud.
+The Python libraries utilized throughout the analysis were Pandas, Numpy, Matplotlib, and Seaborn.
+Once the data from the csv file was read, I used df.types in order to see what type of data was contained within the spreadsheet. 
+Because I was trying to determine the amount of accidents occurring with the condition of “Junctiontype”, I chose to focus on the Severity Code, Weather, Road condition and Light condition. 
